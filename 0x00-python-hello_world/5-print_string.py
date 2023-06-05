@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 str = "Holberton School"
-print(f"{str:s}{str:s}{str:s}" + str[:10])
+print(f"{str:s}{str:s}{str:s}")
+print(str[:10])
