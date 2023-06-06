@@ -4,4 +4,4 @@ for i in reversed(range(ord('a'), ord('z') + 1)):
         j = chr(i - 32)
     else:
         j = chr(i)
-    print(j, end="")
+    print("{}".format(j), end="")
