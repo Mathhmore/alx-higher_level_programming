@@ -2,10 +2,7 @@
 if __name__ == "__main__":
     from sys import argv
     from calculator_1 import add, sub, mul, div
-    a = argv[1]
     op = argv[2]
-    b = argv[3]
-    result = 0
     if len(argv[1:]) != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
@@ -21,3 +18,4 @@ if __name__ == "__main__":
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
     print("{} {} {} = {:d}".format(argv[1], argv[2], argv[3], result))
+    exit(0)
