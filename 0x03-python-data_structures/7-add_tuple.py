@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
+    tuple_c = (0, 0)
+    tuple_a = tuple_a + tuple_c
+    tuple_b = tuple_b + tuple_c
     list_a = list(tuple_a)
     list_b = list(tuple_b)
     if len(tuple_a) > len(tuple_b):
