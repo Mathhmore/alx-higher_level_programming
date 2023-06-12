@@ -21,11 +21,9 @@ int is_palindrome(listint_t **head)
 		counter++;
 		cm = cm->next;
 	}
+	printf("%d", counter);
 	c = counter - 1;
-	if (c % 2 != 0)
-		c1 = (c * c);
-	else
-		c1 = (c * c);
+	c1 = c * c;
 	while (temp->next != NULL)
 		temp = temp->next;
 	temp->next = *head;
