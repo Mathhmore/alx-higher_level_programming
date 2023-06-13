@@ -23,19 +23,16 @@ int count(listint_t *cm)
  */
 int is_palindrome(listint_t **head)
 {
+	int i = 0, counter, c, c1;
+	listint_t *temp, *h, *cm;
+
 	if (*head == NULL)
 		return (1);
-	listint_t *temp;
-	listint_t *h;
-	listint_t *cm;
 
 	temp = *head;
 	h = *head;
 	cm = *head;
-	int i = 0;
-	int counter = count(cm);
-	int c;
-	int c1;
+	counter = count(cm);
 
 	c = counter - 1;
 	c1 = c * c;
