@@ -3,8 +3,6 @@ def square_matrix_simple(matrix=[]):
     k = 0
     l = 0
     new_matrix = [[0 for _ in range(len(matrix[0]))] for _ in range(len(matrix))]
-    print(len(matrix))
-    print(len(matrix[0]))
     for i in matrix:
         for j in i:
             new_matrix[k][l] = j * j
