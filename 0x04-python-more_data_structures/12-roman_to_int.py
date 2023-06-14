@@ -4,7 +4,7 @@ def roman_to_int(roman_string):
     num = 0
     prev = 'I'
     if not isinstance(roman_string, str) or roman_string is None:
-        return None
+        return 0
     for i in reversed(roman_string):
         if i in dic:
             num += dic[i]
