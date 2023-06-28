@@ -6,30 +6,15 @@ def list_division(my_list_1, my_list_2, list_length):
     b = 0
     c = 0
     for i in range(0, list_length):
+        r = 0
         try:
-            result.append(my_list_1[i] / my_list_2[i])
-        except ZeroDivisionError:
-            if a == 0:
-                errmsg = "division by 0"
-            else:
-                errmsg = ""
-            result.append(0)
-            a += 1
+            r = (my_list_1[i] / my_list_2[i])
+        except (ZeroDivisionError, ValueError):
+            print("division by 0")
         except TypeError:
-            if b == 0:
-                errmsg = "wrong type"
-                b += 1
-            else:
-                errmsg = ""
-            result.append(0)
+            print("wrong type")
         except IndexError:
-            if c == 0:
-                errmsg = "out of range"
-            else:
-                errmsg = ""
-            result.append(0)
-            c += 1
+            print("out of range")
         finally:
-            if errmsg != "":
-                print(errmsg)
+            result.append(r)
     return result
