@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module 3-rectangle
+Module 4-rectangle
 contains class Rectangele with a private attribute width and height
 """
 
