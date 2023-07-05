@@ -1,0 +1,12 @@
+Import method to test
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Test signed and unsigned ints and floats:
+     >>> print(add_integer(1, 2))
+     3
+     >>> print(add_integer(-1, 2))
+     1
+     >>> print(add_integer(1.5, 2.9))
+     3
+     >>> print(add_integer(-2.9, 1))
+     -1
