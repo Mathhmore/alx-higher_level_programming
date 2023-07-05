@@ -16,3 +16,8 @@ Failed cases:
 	TraceBack: (most recent call last):
 	...
 	TypeError: size must be an integer
+
+	>>> print_square('h')
+        TraceBack: (most recent call last):
+        ...
+        TypeError: size must be an integer
