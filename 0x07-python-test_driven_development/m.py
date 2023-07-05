@@ -8,3 +8,8 @@ print("")
 print_square(0)
 print("")
 print_square(1)
+try:
+    print_square(-1)
+except Exception as e:
+    print(e)
+print("")
