@@ -19,7 +19,7 @@ def matrix_divided(matrix, div):
         raise ZeroDivisionError("division by zero")
     row_size = len(matrix[0])
     for i in matrix:
-        l = []
+        ll = []
         if not isinstance(i, list):
             raise TypeError(msg)
         if len(i) != row_size:
@@ -27,6 +27,6 @@ def matrix_divided(matrix, div):
         for j in i:
             if not isinstance(j, (float, int)):
                 raise TypeError(msg)
-            l.append(round(float(j) / float(div), 2))
-        new_matrix.append(l)
+            ll.append(round(float(j) / float(div), 2))
+        new_matrix.append(ll)
     return new_matrix
