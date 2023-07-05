@@ -5,7 +5,7 @@ contains a function to print My name
 """
 
 
-def say_my_name(first_name, last_name):
+def say_my_name(first_name, last_name=""):
     """
     method prints My name is <first_name> <last_name>
     """
