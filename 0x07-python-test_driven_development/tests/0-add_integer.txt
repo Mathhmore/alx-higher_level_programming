@@ -15,7 +15,7 @@ Test type:
      Traceback (most recent call last):
      ...
      TypeError: a must be an integer
-     >>> print(add_integer(1, [1, 2, 3]))
+     >>> print(add_integer(0, [1, 2, 3]))
      Traceback (most recent call last):
      ...
      TypeError: b must be an integer
