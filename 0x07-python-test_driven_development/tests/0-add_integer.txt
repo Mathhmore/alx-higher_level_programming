@@ -10,6 +10,7 @@ Test signed and unsigned ints and floats:
      3
      >>> print(add_integer(-2.9, 1))
      -1
+
 Test type:
      >>> print(add_integer("best"))
      Traceback (most recent call last):
