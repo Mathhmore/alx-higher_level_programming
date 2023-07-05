@@ -46,3 +46,7 @@ missing args:
      Traceback (most recent call last):
      ...
      TypeError: a must be an integer
+
+Test use of default b=98 value:
+     >>> print(add_integer(1))
+     99
